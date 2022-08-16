@@ -1,0 +1,83 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@mtorres6739 
+codefellows
+/
+seattle-201d89
+Public
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Security
+Insights
+seattle-201d89/configs/.eslintrc.json
+@JacobKnaack
+JacobKnaack adds intial course files
+Latest commit 5a7aa61 4 days ago
+ History
+ 1 contributor
+40 lines (40 sloc)  735 Bytes
+
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "no-var": "error",
+    "eqeqeq": ["error", "always"],
+    "no-console": "off",
+    "no-undefined": "off",
+    "indent": ["error", 2],
+    "quotes": ["warn", "single"],
+    "no-multi-spaces": [
+      "warn",
+      {
+        "exceptions": {
+          "VariableDeclarator": true
+        }
+      }
+    ],
+    "no-trailing-spaces": "warn",
+    "new-cap": "warn",
+    "no-redeclare": [
+      "error",
+      {
+        "builtinGlobals": true
+      }
+    ],
+    "semi": [2, "always"],
+    "eol-last": "error"
+  }
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have no unread notifications
