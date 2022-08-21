@@ -3,20 +3,19 @@ console.log(`app is running`);
 let totalScore = 0;
 
 // question 0
-let userName = prompt(`What is your name?`); // String data type
+let userName = prompt(`What is your name?`);
 if (typeof (userName) === `string`) {
-  userName = userName.toLowerCase(); // reassigns movie variable to a lowercase string (if it is already a string).
+  userName = userName.toLowerCase(); 
 }
 
 alert(`Hi ${userName}! That is a cool name. Now, I have some questions for you!`);
 
 
-// console.log(`That's a cool name`);
 
 // question 1
-let name = prompt(`Is my name Mathew?`); // String data type
+let name = prompt(`Is my name Mathew?`);
 if (typeof (name) === `string`) {
-  name = name.toLowerCase(); // reassigns movie variable to a lowercase string (if it is already a string).
+  name = name.toLowerCase();
 }
 
 if (name === `y`) {
@@ -29,13 +28,12 @@ if (name === `y`) {
   alert(`Incorrect, my name is Mathew`);
 }
 
-// console.log(`My name is Mathew`);
 
 
 // question 2
-let school = prompt(`Did I go to Arizona State University`); // String data type
+let school = prompt(`Did I go to Arizona State University`);
 if (typeof (school) === `string`) {
-  school = school.toLowerCase(); // reassigns movie variable to a lowercase string (if it is already a string).
+  school = school.toLowerCase();
 }
 
 if (school === `y`) {
@@ -48,13 +46,12 @@ if (school === `y`) {
   alert(`Incorrect, I went to Arizona State University`);
 }
 
-// console.log(`I went to Arizona State University`);
 
 
 // question 3
-let military = prompt(`Am I in the military?`); // String data type
+let military = prompt(`Am I in the military?`);
 if (typeof (military) === `string`) {
-  military = military.toLowerCase(); // reassigns movie variable to a lowercase string (if it is already a string).
+  military = military.toLowerCase();
 }
 
 if (military === `y`) {
@@ -67,13 +64,12 @@ if (military === `y`) {
   alert(`Incorrect, I am in the Army National Guard`);
 }
 
-// console.log(`I am in the Army National Guard`);
 
 
 // question 4
-let job = prompt(`Was I ever an astronaut?`); // String data type
+let job = prompt(`Was I ever an astronaut?`);
 if (typeof (job) === `string`) {
-  job = job.toLowerCase(); // reassigns movie variable to a lowercase string (if it is already a string).
+  job = job.toLowerCase();
 }
 
 if (job === `y`) {
@@ -85,13 +81,11 @@ if (job === `y`) {
   alert(`Correct, I was never an astronaut. I worked in insurance and real estate`);
 }
 
-// console.log(`I was never an astronaut. I worked in insurance and real estate`);
-
 
 // question 5
-let kids = prompt(`Do I have any kids?`); // String data type
+let kids = prompt(`Do I have any kids?`);
 if (typeof (kids) === `string`) {
-  kids = kids.toLowerCase(); // reassigns movie variable to a lowercase string (if it is already a string).
+  kids = kids.toLowerCase();
 }
 
 if (kids === `y`) {
@@ -131,7 +125,6 @@ if (age === 38) {
 }
 
 // question 7
-
 let correctColor = ['blue', 'green', 'purple'];
 let responseColor;
 
